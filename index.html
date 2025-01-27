@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,6 +49,25 @@
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .quote {
+            margin-top: 30px;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -58,6 +78,12 @@
         <h1>Üdvözöllek a 12b második weboldalán!</h1>
         <p>Első próbálkozásunk a Google Sites volt, de most már szintet léptünk!</p>
         <button onclick="alert('Gratulálok, rákattintottál a gombra!')">Kattints rám!</button>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder kép 1">
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder kép 2">
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder kép 3">
+        </div>
+        <p class="quote">"A siker titka a kitartás és a tanulás."</p>
     </main>
     <footer>
         &copy; 2025 12b. Minden jog fenntartva.
