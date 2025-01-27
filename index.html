@@ -3,10 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>12bweboldal</title>
+    <title>12b Weboldal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #84fab0, #8fd3f4);
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            font-size: 2rem;
+        }
+        main {
+            padding: 20px;
+            animation: fadeIn 2s;
+        }
+        footer {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
 <body>
-    <h1>12b masodik weboldala<h1>
-   Első a Google Sites volt 
+    <header>
+        12b Második Weboldala
+    </header>
+    <main>
+        <h1>Üdvözöllek a 12b második weboldalán!</h1>
+        <p>Első próbálkozásunk a Google Sites volt, de most már szintet léptünk!</p>
+        <button onclick="alert('Gratulálok, rákattintottál a gombra!')">Kattints rám!</button>
+    </main>
+    <footer>
+        &copy; 2025 12b. Minden jog fenntartva.
+    </footer>
 </body>
 </html>
