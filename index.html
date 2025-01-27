@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,6 +67,31 @@
             font-size: 1.2rem;
             color: #555;
         }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        ul {
+            list-style-type: square;
+            text-align: left;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
     </style>
 </head>
 <body>
@@ -78,15 +102,49 @@
         <h1>Üdvözöllek a 12b második weboldalán!</h1>
         <p>Első próbálkozásunk a Google Sites volt, de most már szintet léptünk!</p>
         <button onclick="alert('Gratulálok, rákattintottál a gombra!')">Kattints rám!</button>
+
         <div class="gallery">
             <img src="https://via.placeholder.com/200x150" alt="Placeholder kép 1">
             <img src="https://via.placeholder.com/200x150" alt="Placeholder kép 2">
             <img src="https://via.placeholder.com/200x150" alt="Placeholder kép 3">
         </div>
+
         <p class="quote">"A siker titka a kitartás és a tanulás."</p>
+
+        <h2>Kedvenc Tantárgyaim</h2>
+        <ul>
+            <li>Matematika - Szeretem a logikát és a problémamegoldást.</li>
+            <li>Fizika - Érdekes megérteni, hogyan működik a világ körülöttünk.</li>
+            <li>Informatika - Az új technológiák és programozás mindig izgalmas.</li>
+        </ul>
+
+        <h2>Táblázat a Tantárgyakról</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tantárgy</th>
+                    <th>Miért szeretem?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Matematika</td>
+                    <td>Logikus gondolkodás és kreatív problémamegoldás.</td>
+                </tr>
+                <tr>
+                    <td>Fizika</td>
+                    <td>Az univerzum működésének megértése.</td>
+                </tr>
+                <tr>
+                    <td>Informatika</td>
+                    <td>Programozás és technológiai újítások felfedezése.</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
         &copy; 2025 12b. Minden jog fenntartva.
     </footer>
 </body>
 </html>
+
